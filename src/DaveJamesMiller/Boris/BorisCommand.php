@@ -3,8 +3,6 @@
 use Boris\Boris;
 use Illuminate\Console\Command;
 use Illuminate\Foundation\AliasLoader;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
 
 class BorisCommand extends Command {
 
