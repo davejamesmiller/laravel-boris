@@ -1,7 +1,12 @@
 # Laravel Boris
 
-Adds an `artisan boris` command to [Laravel 4][1] that runs the [Boris REPL][2]
+Adds an `artisan boris` command to [Laravel 4.0][1] that runs the [Boris REPL][2]
 in the Laravel environment.
+
+(Note: This package is not needed in Laravel 4.1 because Boris is included by
+default - simply run `php artisan tinker` instead. See Laravel issues
+[#2215](https://github.com/laravel/framework/issues/2215) and
+[#2468](https://github.com/laravel/framework/pull/2468).)
 
 ## Installation
 
