@@ -42,6 +42,10 @@ php artisan boris
 ### 1.0.1
 * Change Boris version from `dev-master` to `>=1.0`
 
+### 1.0.2
+* Change Boris version to `~1.0` so it won't automatically update to `2.0` in
+  the future.
+
 ## License
 MIT License. See [LICENSE.txt][4].
 
