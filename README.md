@@ -39,6 +39,9 @@ php artisan boris
 ### 1.0.0
 * Initial release
 
+### 1.0.1
+* Change Boris version from `dev-master` to `>=1.0`
+
 ## License
 MIT License. See [LICENSE.txt][4].
 
