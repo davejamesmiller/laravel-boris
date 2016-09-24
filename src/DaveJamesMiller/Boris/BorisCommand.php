@@ -31,7 +31,9 @@ class BorisCommand extends Command {
         restore_error_handler();
         restore_exception_handler();
         $this->laravel->make('artisan')->setCatchExceptions(false);
-
+        // Set Application's environment to testing.
+        $this->laravel['env'] = 'testing';
+        
         // Stop the shutdown handler outputting a JSON error object
         $this->laravel->error(function() { return ''; });
 
